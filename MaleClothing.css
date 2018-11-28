@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/* CSS Document */ 
+.content {
+	width: 100%;
+	max-width: 960px;
+	margin: auto
+}
+
+body {
+  max-width: 1350px;
+  margin: 0 auto;
+  background: black;
+  padding: 10px;
+}
+h1  {font-family: Helvetica;}
+h1  {font-size:35px}
+
+
+h2  {font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;}
+h2	{font-size:30px}
+
+h3  {font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;}
+h3  {font-size:28px;}
+h3  {font-style: italic;}
+
+h4  {font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;}
+h4  {font-size:28px;}
+h4  {text-decoration: underline;}
+
+p   {font-family: Calibri, Candara, Segoe, Segoe UI, "Optima", Arial, sans-serif;}
+p   {font-size:16px;}
+
+
+table#table1 {
+    width:80%; 
+    text-align:center; 
+    margin-left:auto; 
+    margin-right:auto;
+    border: 0px solid #999;
+}
+
+table#table2 {
+    width:27%; 
+    margin-left:63%; 
+    margin-right:0%;
+    border: 0px solid #999;
+  }
+
+/* Change the link color to #111 (black) on hover */
+td a:hover {
+    background-color:hsla(233,92%,36%,1.00)
+    }
